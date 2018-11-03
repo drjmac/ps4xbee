@@ -16,3 +16,6 @@ Control an Arbotix Hexapod using a PS4 controller connected to a Raspberry Pi
 
 ##### To run:
 - ```docker run -t --device=/dev/ttyUSB0 --privileged ps4xbee```
+
+##### Setting up Docker on a Raspberry Pi
+- Use this install guide: https://blog.alexellis.io/getting-started-with-docker-on-raspberry-pi/
