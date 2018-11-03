@@ -10,3 +10,6 @@ Control an Arbotix Hexapod using a PS4 controller connected to a Raspberry Pi
 
 ### Run
 - pipenv run python3 ps4xbee.py
+
+### Docker
+- docker run -t --device=/dev/ttyUSB0 --privileged ps4xbee
